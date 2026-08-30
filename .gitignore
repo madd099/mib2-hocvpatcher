@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Legacy / local
+*_original.py.bak
+*.exe
+start.bat
+
+# OS
+Thumbs.db
+.DS_Store
