@@ -37,6 +37,9 @@ pip install PySide6
 python MST2HocvPatcher.py
 ```
 
+###  Полезные ссылки
+- [Патч даты из будущего — статья на Drive2](https://www.drive2.ru/l/712453299302827334)
+
 ---
 
 ## 🇬🇧 English
@@ -77,3 +80,5 @@ Ready-made builds are available in [Releases](../../releases):
 pip install PySide6
 python MST2HocvPatcher.py
 ```
+### Links
+- [About this patch on Drive2](https://www.drive2.ru/l/712453299302827334)
