@@ -1,4 +1,4 @@
-# MIB STD2 HMIOFFCLOCKVIEW PATCHER
+# MIB STD2 HMIOFFCLOCKVIEW (Hocv) PATCHER
 
 **Скрывает баг «дата из будущего» под часами** на PQ-юнитах с HMI от ZR-прошивок (SEAT / SKODA / VW) · v1.2
 
@@ -18,6 +18,7 @@
 В папке со скином, который мы хотим поправить (советую выбрать какой-нибудь 4 или 5, чтобы в случае проблем, вернуться на свой прошлый через длинное кодирование), есть файл viewhandler.zip. Открываем и извлекаем файлы
 - Hocv_08DA85708EEB9B2F_CA54.jxe
 - Hocv_08DA85708EEB9B2F_DA1F.jxe
+  
 Выбираем их в программе, запускаем - готово. Дальше остается только закинуть исправленные файлы обратно в viewhandler.zip.
 На наше счастье, контрольные суммы не сверяются.
 Кладем всю папку со скином на флешку с тулбоксом в custom\skins\replace и заменяем скин при помощи customization/skins/ -> Copy images.mcf and ambienceColorMap.res from /custom/skins
@@ -58,6 +59,7 @@ Dump the skins using Toolbox or extract them from the downloaded firmware.
 In the folder of the skin you want to fix (I recommend picking skin 4 or 5, so that in case of problems you can switch back to your previous one via long coding), there is a viewhandler.zip file. Open it and extract the files:
 - Hocv_08DA85708EEB9B2F_CA54.jxe
 - Hocv_08DA85708EEB9B2F_DA1F.jxe
+  
 Select them in the program and press Run — done. All that is left is to put the fixed files back into viewhandler.zip.
 Luckily for us, no checksums are verified.
 Put the whole skin folder on the Toolbox USB stick into custom\skins\replace and replace the skin using customization/skins/ -> Copy images.mcf and ambienceColorMap.res from /custom/skins
